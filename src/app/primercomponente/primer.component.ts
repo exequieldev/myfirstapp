@@ -2,9 +2,11 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'helloworld',
-    template: '<h1>Hola mundo</h1>',
-    styles: ['h1 {background: #000; color:#fff;}']
+    templateUrl:'./primer.component.html',
+    styleUrls: ['./primer.component.css'],
 })
+
 export class Helloworld{
 
+    title="Welcome to Angular";
 }
